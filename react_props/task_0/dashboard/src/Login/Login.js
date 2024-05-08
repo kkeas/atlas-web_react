@@ -3,7 +3,7 @@ import React from 'react';
 import './Login.css';
 
 
-function App() {
+function Login() {
   return (
         <body className='App-body'>
           <p>Login to access the full dashboard</p>
@@ -18,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default Login;
