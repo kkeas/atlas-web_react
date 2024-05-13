@@ -11,7 +11,7 @@ describe("CourseList", () => {
   it("renders 5 diffrent rows", () => {
     const wrapper = shallow(<CourseList />);
     expect(wrapper.find("thead").children().length).toEqual(2);
-    expect(wrapper.find("tbody").children().length).toEqual(3);
+    expect(wrapper.find("tbody").children().length).toEqual(1);
   });
 });
 

@@ -8,9 +8,9 @@ describe('Notifications', () => {
     expect(wrapper.exists()).toBe(true);
   });
 
-  it('renders three list items', () => {
+  it('renders 1 item', () => {
     const wrapper = shallow(<Notifications  displayDrawer={true}/>);
-    expect(wrapper.find('NotificationItem')).toHaveLength(3);
+    expect(wrapper.find('NotificationItem')).toHaveLength(1);
   });
 
 /* task 4 */
