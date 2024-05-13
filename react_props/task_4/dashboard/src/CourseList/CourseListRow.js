@@ -1,9 +1,11 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import propTypes from 'prop-types';
 
-CourseListRow.PropTypes = {
-    isHeader: PropTypes.bool,
-    textFirstCell: PropTypes.string.isRequired,
-    textSecondCell: PropTypes.string,
+
+CourseListRow.propTypes = {
+    isHeader: propTypes.bool,
+    textFirstCell: propTypes.string.isRequired,
+    textSecondCell: propTypes.string,
 };
 
 function CourseListRow({isHeader, textFirstCell, textSecondCell}) {
@@ -30,3 +32,5 @@ function CourseListRow({isHeader, textFirstCell, textSecondCell}) {
     </tr>
   );
 };
+
+export default CourseListRow;
