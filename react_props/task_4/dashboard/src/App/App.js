@@ -8,13 +8,19 @@ import CourseList from '../CourseList/CourseList.js';
 import PropTypes from 'prop-types';
 
 
-function App() {
+const appDefaults = {
+  isLoggedIn: false,
+};
+
+const App = ({isLoggedIn}) => {
   return (
     <>
-    <Notifications />
-    <Header />
-    <Login />
-    <Footer />
+      <Notifications />
+      <div className="App">
+        <Header />
+        {isLoggedIn ? <CourseList /> : <Login />}
+        <Footer />
+      </div>
     </>
   );
 }
