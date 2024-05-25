@@ -1,0 +1,23 @@
+.App-header {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.App-logo {
+    height: 20vmin;
+    pointer-events: none;
+    margin-right: 515px;
+}
+
+.App-title {
+    font-size: calc(10px + 2vmin);
+    color: #E0354B;
+    font-weight: bold;
+    margin-right: 200px;
+    margin-top: -80px;
+}
