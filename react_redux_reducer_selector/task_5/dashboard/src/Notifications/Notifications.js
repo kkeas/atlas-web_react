@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
 import NotificationItem from './NotificationItem';
-import { StyleSheet, css, keyframes } from 'aphrodite';
+import { StyleSheet, css } from 'aphrodite';
 import { AppContext } from '../App/AppContext';
 
 // Animation
